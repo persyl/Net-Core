@@ -10,6 +10,7 @@ Doing some .Net Core stuff
 - Run this application from Visual Studio (Ctrl+F5)
 
 # How I deployed application to Docker Hub and further to Azure:
+- With help from this post: https://damienbod.com/2017/01/21/creating-an-asp-net-core-docker-application-and-deploying-to-azure/
 - Do a Release-build of the application
 - Open up the console and create a docker tag for the application.
 	"docker tag persylnetcorewebapp persyl/mynetcorewebapp"
