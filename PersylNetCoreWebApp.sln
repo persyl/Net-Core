@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersylNetCoreWebApp", "PersylNetCoreWebApp\PersylNetCoreWebApp.csproj", "{A0248235-FB10-4264-BC5E-D5B9A1240F64}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A4EA8D1C-1634-4C6A-B600-DA92DD57EEAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0248235-FB10-4264-BC5E-D5B9A1240F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0248235-FB10-4264-BC5E-D5B9A1240F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0248235-FB10-4264-BC5E-D5B9A1240F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0248235-FB10-4264-BC5E-D5B9A1240F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4EA8D1C-1634-4C6A-B600-DA92DD57EEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EA8D1C-1634-4C6A-B600-DA92DD57EEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EA8D1C-1634-4C6A-B600-DA92DD57EEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EA8D1C-1634-4C6A-B600-DA92DD57EEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

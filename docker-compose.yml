@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  persylnetcorewebapp:
+    image: persylnetcorewebapp${TAG}
+    build:
+      context: ./PersylNetCoreWebApp
+      dockerfile: Dockerfile
+    ports:
+      - "80"
