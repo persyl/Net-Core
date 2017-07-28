@@ -38,3 +38,4 @@ A **Dockerfile** will define what goes on in the environment inside your contain
 - "docker rm NAME" Remove a container where NAME is the name of the container
 - "docker images" List all images
 - "docker rmi NAME" Remove an image where NAME is the name of the image
+- To remove untagged images, first run "docker images -f "dangling=true" -q" to get ID then use that ID in "docker rmi ID"
